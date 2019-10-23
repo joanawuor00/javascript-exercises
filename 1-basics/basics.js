@@ -135,8 +135,10 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
-            ////////////////////////////////////////////////////////////////////
+              const object={ 
+                  someProperty:1
+              };
+             ////////////////////////////////////////////////////////////////////
 
             expect(object instanceof Object).to.equal(true);
             expect(object.someProperty).to.equal(1);
@@ -151,7 +153,7 @@ describe("basics", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+              
             ////////////////////////////////////////////////////////////////////
 
             // object.someProperty is undefined...
@@ -170,7 +172,7 @@ describe("basics", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             // object.someProperty is undefined...
