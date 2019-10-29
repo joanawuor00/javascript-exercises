@@ -11,10 +11,10 @@ describe("functions", function() {
     describe("Function declaration", () => {
         it("should run without errors", function() {
             myFunction(); // myFunction should already be callable here
-             function myFunction(){}
+            
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            function myFunction(){}
             ////////////////////////////////////////////////////////////////////
         });
     });
@@ -27,7 +27,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+             const myFunction = function(){}
             ////////////////////////////////////////////////////////////////////
 
             myFunction(); // myFunction should be callable now
