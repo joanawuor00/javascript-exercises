@@ -11,7 +11,7 @@ describe("functions", function() {
     describe("Function declaration", () => {
         it("should run without errors", function() {
             myFunction(); // myFunction should already be callable here
-
+             function myFunction(){}
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
 
