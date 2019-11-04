@@ -21,7 +21,7 @@ describe("functions", function() {
 
     describe("Function expression", () => {
         it("should run without errors", function() {
-            expect(() => {
+             expect(() => {
                 myFunction(); // myFunction should NOT yet be callable here
             }).to.throw("Cannot access 'myFunction' before initialization");
 
@@ -57,7 +57,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ EDIT LINE BELOW ✏️
-            
+            otherFunction(); //  why is myFunction not callable?
             ////////////////////////////////////////////////////////////////////
         });
     });
@@ -72,7 +72,7 @@ describe("functions", function() {
             // Declare a constant 'answer' with the correct result.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-            const result = answer();
+    
             ////////////////////////////////////////////////////////////////////
 
             const result = getContext(); // <--- called without explicit context
