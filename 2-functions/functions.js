@@ -40,7 +40,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-            
+            const otherFunction= myFunction;
             ////////////////////////////////////////////////////////////////////
 
             if (myFunction !== otherFunction) {
@@ -96,8 +96,8 @@ describe("functions", function() {
             // and 'answerThirdResult' with the correct results.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-
-            ////////////////////////////////////////////////////////////////////
+            
+             ////////////////////////////////////////////////////////////////////
 
             // First we call the function without an explicit context
             const firstResult = getContext();
@@ -134,7 +134,7 @@ describe("functions", function() {
             // and 'answerSecondResult' with the correct results.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-
+               
             ////////////////////////////////////////////////////////////////////
 
             // First we call the function on an object
@@ -218,7 +218,7 @@ describe("functions", function() {
                 // Unfortunately, it does not specify any parameters.
                 // Find a way to retrieve the first argument without specifying a parameter.
                 // ✏️ ADD CODE HERE ✏️
-
+                 
                 ////////////////////////////////////////////////////////////////////
             }
 
